@@ -3,6 +3,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: { default: '英語学習ナビ | 英会話スクール・アプリ比較', template: '%s | 英語学習ナビ' },
   description: '英会話スクール・オンライン英会話・英語アプリを徹底比較。目的別・レベル別のおすすめ学習法を紹介。',
+  verification: { google: 'XcyMImXtiMlMj5NBeiKQBcD_Vqrw3EDW0TDFBVTAtaA' },
 }
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
